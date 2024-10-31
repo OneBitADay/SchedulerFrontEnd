@@ -1,7 +1,21 @@
 .navbar {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(214, 172, 243, 0.18);
 }
 
 ul {
     list-style: none;
+    text-align: center;
+}
+
+.nav--logo {
+    height: 50px;
+    width: 100px;
+}
+
+ul li {
+    display: inline-block;
+    padding-inline: 20px;
 }
